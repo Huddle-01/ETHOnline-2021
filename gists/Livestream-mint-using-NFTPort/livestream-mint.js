@@ -46,7 +46,6 @@ const uplodmetadata = async () => {
       },
     })
       .then((response) => response.json())
-
       // Displaying results to console
       .then((response) => {
         console.log(response);
