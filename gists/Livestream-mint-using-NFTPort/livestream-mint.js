@@ -31,7 +31,6 @@ const uplodmetadata = async () => {
     fetch("https://api.nftport.xyz/v0/mints/customizable", {
       // Adding method type
       method: "POST",
-
       // Adding body or contents to send
       body: JSON.stringify({
         chain: "polygon",
